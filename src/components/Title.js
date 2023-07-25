@@ -14,7 +14,11 @@ const Title =()=>{
       <span>Mode [{theme}]</span>
       <Switch
         onChange={toggleSwitch}
-        checked = {theme==="dark"}/>
+        checked = {theme==="dark"}
+        uncheckedIcon={false}
+        checkedIcon={false}
+        onColor={'#ffa500'}
+        />
     </header>
   )
 }

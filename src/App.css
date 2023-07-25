@@ -29,3 +29,10 @@ header.dark{
   background-color: #121213;
   color: orange;
 }
+main.dark{
+  background-color: #121213;
+  color: #fff;
+}
+main.dark p{
+  color: orange;
+}
